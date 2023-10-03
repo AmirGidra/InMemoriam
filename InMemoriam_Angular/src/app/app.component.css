@@ -1,0 +1,26 @@
+.conteiner-landing{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5rem;
+    margin-top: 10px;
+}
+.item{
+    align-self: auto;
+    display: inline;
+    border: 1px solid grey;
+    border-radius: 20%;
+    background-color: orange;
+    padding: 5px;
+}
+a, .item{
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    color: #fff;
+    display: inline;
+    align-self: flex-start !important;
+}
